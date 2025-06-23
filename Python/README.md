@@ -111,9 +111,4 @@ Features:
 - Use functions and error handling
 """
 
-# Save to file
-filepath = "/mnt/data/Python_Roadmap.md"
-with open(filepath, "w", encoding="utf-8") as file:
-    file.write(markdown_content)
 
-filepath
