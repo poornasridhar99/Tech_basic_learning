@@ -348,4 +348,94 @@ if username ==user and password==passw:
 else:
     print("invalid ")'''
 
+#Build a basic calculator:
+'''
+Take two numbers and an operator (+, -, *, /)
+Perform the operation using if-elif'''
+'''a=int(input())
+b=int(input())
+c=input()
+if c=='+':
+    print(a+b)
+elif c=='-':
+    print(a-b)
+elif c=='*':
+    print(a*b)
+elif c=='/':
+    print(a/b)
+else:
+    print("invalid")'''
+    
+#ATM Program:
+
+'''Ask user to enter pin
+
+If correct → print balance
+
+Else → print "Invalid pin"'''
+
+'''stored_pin=1234
+pin=int(input())
+if pin==stored_pin:
+    print("your balance is 1000")
+else:
+    print("invalid pin")'''
+    
+#Exam Grading System:
+'''
+Take 3 subject marks
+
+Calculate average
+
+Give grade based on average'''
+
+'''tel=int(input())
+eng=int(input())
+soc=int(input())
+avg=(tel+eng+soc)/3
+if avg>90:
+    print("A grade")
+elif 80<=avg<=90:
+    print("B grade")
+elif 70<=avg<80:
+    print("C grade")
+elif 60<=avg<70:
+    print("D grade")
+else:
+    print("Fail")'''
+    
+#Input 3 angles and check if they can form a triangle (sum = 180)
+'''a,b,c=input().split()
+a=float(a)
+b=float(b)
+c=float(c)
+if (a+b+c)==180:
+    print("Triangle")
+else:
+    print("not a triangle")'''
+
+
+#Train Ticket Discount:
+
+'''If age < 5 → Free
+
+5–18 → Half
+
+60+ → Senior citizen discount
+
+Else → Full fare'''
+
+'''age=int(input())
+if age<5:
+    print("Free")
+elif 5<=age<=18:
+    print("half")
+elif 18<age<=59:
+    print("Full")
+else:
+    print("Senior citizen discount")'''
+    
+
+
+
 
