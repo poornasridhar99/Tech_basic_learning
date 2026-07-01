@@ -6,7 +6,7 @@
 ## Phase 1: Python Basics (Programming Fundamentals)
 
 ### 📘 Concepts to Cover
-- What is Python and how to run scripts
+- What is Python and how to run scripts..
 - Variables and Data Types (`int`, `float`, `str`, `bool`, `None`)
 - Input/Output (`input()`, `print()`)
 - Operators (Arithmetic, Comparison, Logical, Assignment)
